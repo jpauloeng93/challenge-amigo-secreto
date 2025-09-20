@@ -13,7 +13,7 @@ function adicionarAmigo(){
             input.value = "";
         }
     }else{
-            console.log(`nenhum nome digitado`);
-            alert("Por favor, insira um nome.");
+        console.log(`nenhum nome digitado`);
+        alert("Por favor, insira um nome.");
     }
 }
