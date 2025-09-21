@@ -42,7 +42,7 @@ function sortearAmigo() {
         listaAmigos.innerHTML = "";
 
         const li = document.createElement('li');
-        li.textContent = amigoSorteado; // * Mostrar o resultado
+        li.textContent = "O Amigos sorteado foi: " + amigoSorteado; // * Mostrar o resultado
 
         listaAmigos.appendChild(li);
 
